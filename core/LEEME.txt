@@ -1,0 +1,16 @@
+PARCHE MIKU — HUD
+
+Archivos incluidos:
+- avatar.py: render del cabello turquesa de dos coletas y ojos anime.
+- avatar_mesh.py: deformación real de la malla 3D hacia proporciones anime.
+
+INSTALACIÓN:
+1. Cierra el asistente.
+2. Haz una copia de seguridad de core/avatar.py y core/avatar_mesh.py.
+3. Copia estos dos archivos a la carpeta core de tu proyecto y acepta reemplazarlos.
+4. NO reemplaces ni borres core/face_model.obj; avatar_mesh.py sigue leyendo ese archivo.
+5. Ejecuta el proyecto como siempre.
+
+Este parche mantiene los índices de landmarks de la malla para conservar el parpadeo
+y la animación de boca. Es una primera versión de estilización anime del HUD;
+no es un modelo 3D oficial de Hatsune Miku.
